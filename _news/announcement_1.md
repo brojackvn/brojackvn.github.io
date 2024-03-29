@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-3-30 11:11
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Launching my blog - Let's get started! :sparkles: :sparkles: :sparkles:

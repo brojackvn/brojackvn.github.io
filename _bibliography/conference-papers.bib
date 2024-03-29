@@ -1,0 +1,21 @@
+@inproceedings{ho2022combining,
+  abbr={SOICT},
+  title={Combining deep learning and kernel PCA for software defect prediction},
+  author={Ho, Anh and N. Nguyen, Hai and M. T. Bui, Anh},
+  booktitle={Proceedings of the 11th International Symposium on Information and Communication Technology},
+  pages={360--367},
+  year={2022},
+  abstract={Software defect prediction aims to automatically determine the most likely location of defective program elements (i.e., statement, method, class, module etc.). Previous studies for software defect prediction mainly focus on exploring designing features such as source code complexity, object oriented design metrics etc. to classify program elements into two categories: (i) defective and (ii) non-defective. Although these approaches have obtained promising results, there exists two significant challenges in this research field: (i) removing irrelevant and redundant information from designing structures ; (ii) reducing the impact of skewed data distribution on learning models. In this paper, we aim to address these two issues by firstly applying kernel PCA to extract essential information from designing features and secondly proposing a deep neural network model which investigates the non-linear relationship among features. In order to mitigate the class imbalance, we apply a weighted loss function combined with a bootstrapping method to handle batch training mechanism of our model. We conducted some experiments to assess the performance of our proposed approach over NASA (with 10 projects) and PROMISE (with 34 projects) datasets. In order to leverage the efficiency of kernel PCA technique in software defect prediction, we compared it to some traditional feature selection approaches over a high-dimensional dataset ECLIPSE. The empirical results showed that our proposed method has outperformed these other state-of-the-art models by effectively predicting defective source files.},
+  html={https://doi.org/10.1145/3568562.3568587},
+}
+
+@inproceedings{ho2023fusion,
+  abbr={EASE},
+  title={Fusion of deep convolutional and LSTM recurrent neural networks for automated detection of code smells},
+  author={Ho, Anh and M. T. Bui, Anh and Nguyen, Phuong T. and Di Salle, Amleto},
+  booktitle={Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering},
+  pages={229--234},
+  year={2023},
+  abstract={Code smells is the term used to signal certain patterns or structures in software code that may contain a potential design or architecture problem, leading to maintainability or other software quality issues. Detecting code smells early in the software development process helps prevent these problems and improve the overall software quality. Existing research concentrates on the process of collecting and handling dataset, then exploring the potential of utilizing deep learning models to detect smells, while ignoring extensive feature engineering. Though these approaches obtained promising results, the following issues need to be tackled: (i) extracting both structural and semantic features from the software units; (ii) mitigating the effects of imbalanced data distribution on the performance.In this paper, we propose DeepSmells as a novel approach to code smells detection. To learn the complex hierarchical representations of the code fragment, we apply a deep convolutional neural network (CNN). Then, in order to improve the quality of the context encoding and preserve semantic information, long short-term memory networks (LSTM) is placed immediately after the CNN. The final classification is conducted by deep neural networks with weighted loss function to reduce the impact of skewed data distribution. We performed an empirical study using the existing code smell benchmark datasets to assess the performance of our proposed approach, and compare it with state-of-the-art baselines. The results demonstrate the effectiveness of our proposed method for all kinds of code smells with outperformed evaluation metrics in terms of F1 score and MCC.},
+  html={https://doi.org/10.1145/3593434.3593476},
+}
