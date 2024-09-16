@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: PhD Candidate at <a href='#'>The University of Melbourne</a>
-subtitle: BSc. Computer Science in <a href='https://hust.edu.vn/en/'>Hanoi University of Science and Technology</a>
+subtitle: PhD Candidate in Computer Science at <a href='https://www.unimelb.edu.au'>The University of Melbourne</a>
 
 profile:
   align: right
