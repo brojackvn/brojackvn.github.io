@@ -23,16 +23,16 @@
     ]
   },
   "education": [
-    // {
-    //   "institution": "The University of Melbourne - UoM",
-    //   "location": "Victoria, Australia",
-    //   "url": "https://www.unimelb.edu.au",
-    //   "area": "Computer Science",
-    //   "studyType": "Doctor of Philosophy - Engineering and IT",
-    //   "startDate": "2024",
-    //   "endDate": "",
-    //   "courses": ["Topic: Regression Errors Repair"]
-    // },
+    {
+      "institution": "The University of Melbourne - UniMelb",
+      "location": "Victoria, Australia",
+      "url": "https://www.unimelb.edu.au",
+      "area": "Computer Science",
+      "studyType": "Doctor of Philosophy - Engineering and IT",
+      "startDate": "2024",
+      "endDate": "",
+      "courses": ["Topic: Regression Errors Repair"]
+    },
     {
       "institution": "Hanoi University of Science and Technology - HUST",
       "location": "Hanoi, Vietnam",
