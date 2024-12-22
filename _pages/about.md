@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: PhD Candidate at <a href='#'>The University of Melbourne</a>
-subtitle: PhD Candidate in Computer Science at <a href='https://www.unimelb.edu.au'>The University of Melbourne</a>
+subtitle: PhD Student at <a href="https://www.unimelb.edu.au" target="_blank">The University of Melbourne</a>, working under the supervision of <a href="https://xuanbachle.github.io" target="_blank">Dr. Bach Le</a> and <a href="https://scholar.google.com/citations?user=rTEeEsYAAAAJ&hl=en" target="_blank">Dr. Christine Rizkallah</a>.
 
 profile:
   align: right

@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Anh Ho",
-    "label": "PhD Candidate in Computer Science",
+    "label": "PhD Student - Graduate Researcher",
     "image": "",
     "email": "anhho.work@gmail.com",
     "phone": "(+61) 435-378-099",
@@ -27,11 +27,11 @@
       "institution": "The University of Melbourne - UniMelb",
       "location": "Victoria, Australia",
       "url": "https://www.unimelb.edu.au",
-      "area": "PhD Candidate in Computer Science",
+      "area": "PhD Student - Graduate Researcher",
       "studyType": "Doctor of Philosophy - Engineering and IT",
       "startDate": "2024",
       "endDate": "",
-      "courses": ["Research Topic: Regression Errors Repair"]
+      "courses": ["Research Topic: Automated Bug Fixing Using Program Analysis and AI", "Supervisors: Dr. Bach Le and Dr. Christine Rizkallah"]
     },
     {
       "institution": "Hanoi University of Science and Technology - HUST",
