@@ -18,6 +18,7 @@ horizontal: false
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_research = site.research | where: "category", category %}
+  (To be continued ...)
   {% assign sorted_research = categorized_research | sort: "importance" %}
   <!-- Generate cards for each research item -->
   {% if page.horizontal %}
