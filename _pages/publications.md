@@ -11,11 +11,11 @@ For Conference rankings, please refer to [CORE rankings](https://portal.core.edu
 [Google Scholar Metrics](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_softwaresystems) assesses impact using the h-index.
 <!-- _pages/publications.md -->
 <div class="publications">
-<h1>Conference papers</h1>
-{% bibliography --file conference-papers %}
+<h1>Journal papers</h1>
+{% bibliography --file journal-papers %}
 </div>
 
 <div class="publications">
-<h1>Journal papers</h1>
-{% bibliography --file journal-papers %}
+<h1>Conference papers</h1>
+{% bibliography --file conference-papers %}
 </div>
