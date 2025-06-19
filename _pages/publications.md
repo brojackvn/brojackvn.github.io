@@ -12,7 +12,7 @@ nav_order: 1
 
 <!-- _pages/publications.md -->
 <div class="publications">
-<h1>Arvix</h1>
+<h1>Arxiv</h1>
 {% bibliography --file arxiv-papers %}
 </div>
 
