@@ -43,6 +43,17 @@
       "endDate": "2023",
       "score": "3.56/4.0",
       "courses": ["Thesis title: Deep learning for automated detection of code smells", "Selected for Talented Program in Computer Science (Selected 35 out of 1000 in our cohorts)"]
+    },
+        {
+      "institution": "Vo Nguyen Giap High School for the Gifted",
+      "location": "Quang Binh, Vietnam",
+      "url": "https://brojackvn.github.io/cv/",
+      "area": "Specialized Class in Mathematics",
+      "studyType": "High School Diploma",
+      "startDate": "2016",
+      "endDate": "2019",
+      "score": "9.3/10",
+      "courses": ["Awarded Second Prizes in Mathematics of the National Excellent Student Competition 2019, also known as Vietnam Mathematical Olympiad (VMO 2019)", "The top 40 candidates have been selected to participate in the Vietnam Team Selection Test 2019 (VN TST 2019), with the aim of choosing the top 6 students to represent the national team at the International Mathematical Olympiad 2019 (IMO 2019)."]
     }
   ],
   "work": [
