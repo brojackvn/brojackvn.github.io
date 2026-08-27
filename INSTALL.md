@@ -1,22 +1,24 @@
 # Table of Contents
 
 - [Installing and Deploying](#installing-and-deploying)
-  - [Recommended Approach](#recommended-approach)
-  - [Local Setup on Windows](#local-setup-on-windows)
-  - [Local Setup using Docker (Recommended)](#local-setup-using-docker-recommended)
-    - [Build your own docker image](#build-your-own-docker-image)
-  - [Local Setup (Legacy)](#local-setup-legacy)
-  - [Deployment](#deployment)
-    - [For personal and organization webpages](#for-personal-and-organization-webpages)
-    - [For project pages](#for-project-pages)
-    - [Enabling automatic deployment](#enabling-automatic-deployment)
-    - [Manual deployment to GitHub Pages](#manual-deployment-to-github-pages)
-    - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
-    - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
-  - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+    - [Recommended Approach](#recommended-approach)
+    - [Local Setup on Windows](#local-setup-on-windows)
+    - [Local Setup using Docker (Recommended)](#local-setup-using-docker-recommended)
+        - [Build your own docker image](#build-your-own-docker-image)
+    - [Local Setup (Legacy)](#local-setup-legacy)
+    - [Deployment](#deployment)
+        - [For personal and organization webpages](#for-personal-and-organization-webpages)
+        - [For project pages](#for-project-pages)
+        - [Enabling automatic deployment](#enabling-automatic-deployment)
+        - [Manual deployment to GitHub Pages](#manual-deployment-to-github-pages)
+        - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
+        - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
+    - [Upgrading from a previous version](#upgrading-from-a-previous-version)
 
 # Installing and Deploying
+
 **Install RUBY:** https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma
+
 ## Recommended Approach
 
 The recommended approach for using **al-folio** is to first create your own site using the template with as few changes as possible, and only when it is up and running customize it however you like. This way it is easier to pinpoint what causes a potential issue in case of a bug. The minimum steps required to create your own site are:
@@ -186,24 +188,24 @@ Then go to Actions -> New workflow -> set up a workflow yourself, setup the foll
 ```yaml
 name: Sync from template
 on:
-  # cronjob trigger
-  schedule:
-    - cron: "0 0 1 * *"
-  # manual trigger
-  workflow_dispatch:
+    # cronjob trigger
+    schedule:
+        - cron: '0 0 1 * *'
+    # manual trigger
+    workflow_dispatch:
 jobs:
-  repo-sync:
-    runs-on: ubuntu-latest
-    steps:
-      # To use this repository's private action, you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_repo_path: alshedivat/al-folio
-          upstream_branch: master
+    repo-sync:
+        runs-on: ubuntu-latest
+        steps:
+            # To use this repository's private action, you must check out the repository
+            - name: Checkout
+              uses: actions/checkout@v4
+            - name: actions-template-sync
+              uses: AndreasAugustin/actions-template-sync@v1
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  source_repo_path: alshedivat/al-folio
+                  upstream_branch: master
 ```
 
 You will receive a pull request within your repository if there are some changes available in the template.

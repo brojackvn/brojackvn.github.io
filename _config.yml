@@ -4,13 +4,15 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Anh
-middle_name: 
+middle_name:
 last_name: Ho (Jack)
 email: anhho.work@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:" PhD Student at The University of Melbourne.
-  
+description:
+    > # the ">" symbol means to ignore newlines until "footer_text:" PhD Student at The University of Melbourne.
+
+
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -28,9 +30,9 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+    enabled: true
+    theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
+    theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -101,8 +103,8 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
-contact_note: > 
-  Feel free to reach out at your convenience
+contact_note: >
+    Feel free to reach out at your convenience
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -127,26 +129,26 @@ permalink: /stuff/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false
+    enabled: true
 
 related_blog_posts:
-  enabled: true
-  max_related: 5
+    enabled: true
+    max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
-  emit_metadata: 0
-  lang: en
+    repo: # <your-github-user-name>/<your-github-repo-name>
+    repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
+    category: Comments # name of the category under which discussions will be created
+    category_id: # leave empty or specify your category_id (see https://giscus.app/)
+    mapping: title # identify discussions by post title
+    strict: 1 # use strict identification mode
+    reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
+    input_position: bottom # whether to display input form below (bottom) or above (top) the comments
+    theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+    emit_metadata: 0
+    lang: en
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
@@ -156,32 +158,32 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  # - name: medium.com
-  #   rss_url: https://medium.com/@al-folio/feed
+    # - name: medium.com
+    #   rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: false
-    permalink: /news/:path/
-  research:
-    output: true
-    permalink: /research/:path/
+    news:
+        defaults:
+            layout: post
+        output: false
+        permalink: /news/:path/
+    research:
+        output: true
+        permalink: /research/:path/
 
 announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+    enabled: true
+    scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+    limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+    enabled: false
+    scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+    limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -191,134 +193,151 @@ latest_posts:
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    css_class: "highlight"
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
+    input: GFM
+    syntax_highlighter_opts:
+        css_class: 'highlight'
+        span:
+            line_numbers: false
+        block:
+            line_numbers: false
+            start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ['_pages']
 exclude:
-  - bin
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - docker-compose.yml
-  - Dockerfile
-  - FAQ.md
-  - Gemfile
-  - Gemfile.lock
-  - INSTALL.md
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - purgecss.config.js
-  - README.md
-  - vendor
+    - bin
+    - CONTRIBUTING.md
+    - CUSTOMIZE.md
+    - docker-compose.yml
+    - Dockerfile
+    - FAQ.md
+    - Gemfile
+    - Gemfile.lock
+    - INSTALL.md
+    - LICENSE
+    - package.json
+    - package-lock.json
+    - purgecss.config.js
+    - README.md
+    - vendor
 keep_files:
-  - CNAME
-  - .nojekyll
+    - CNAME
+    - .nojekyll
 
 # Plug-ins
 plugins:
-  - jekyll-archives
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jemoji
+    - jekyll-archives
+    - jekyll-email-protect
+    - jekyll-feed
+    - jekyll-get-json
+    - jekyll-imagemagick
+    - jekyll-jupyter-notebook
+    - jekyll-link-attributes
+    - jekyll-minifier
+    - jekyll-paginate-v2
+    - jekyll/scholar
+    - jekyll-sitemap
+    - jekyll-toc
+    - jekyll-twitter-plugin
+    - jemoji
 
 # Sitemap settings
 defaults:
-  - scope:
-      path: "assets"
-    values:
-      sitemap: false
+    - scope:
+          path: 'assets'
+      values:
+          sitemap: false
 
 sass:
-  style: compressed
+    style: compressed
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt"]
-  uglifier_args:
-    harmony: true
+    exclude: ['robots.txt']
+    uglifier_args:
+        harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/stuff/:year/"
-    tag: "/stuff/tag/:name/"
-    category: "/stuff/category/:name/"
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    layouts:
+        year: archive-year
+        tag: archive-tag
+        category: archive-category
+    permalinks:
+        year: '/stuff/:year/'
+        tag: '/stuff/tag/:name/'
+        category: '/stuff/category/:name/'
 
-display_tags: ["🌟 research", "💡 tips & tricks", "📓 note", "💻 code"] # these tags will be displayed on the front page of your blog
-display_categories: ["💼 work", "🌱 life"] # these categories will be displayed on the front page of your blog
-# display_tags: ["research", "tips-tricks", "note", "code"] # these tags will be displayed on the front page of your blog
-# display_categories: ["work", "life"] # these categories will be displayed on the front page of your blog
+# display_tags: ["🌟 research", "💡 tips & tricks", "📓 note", "💻 code"] # these tags will be displayed on the front page of your blog
+# display_categories: ["💼 work", "🌱 life"] # these categories will be displayed on the front page of your blog
+display_tags: ['research', 'tips-tricks', 'note', 'code'] # these tags will be displayed on the front page of your blog
+display_categories: ['work', 'life'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Ho]
-  first_name: [Anh]
+    last_name: [Ho]
+    first_name: [Anh]
 
-  style: apa
-  locale: en
+    style: apa
+    locale: en
 
-  source: /_bibliography/
-  bibliography: conference-papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+    source: /_bibliography/
+    bibliography: conference-papers.bib
+    bibliography_template: bib
+    # Note: if you have latex math in your bibtex, the latex filter
+    # preprocessing may conflict with MathJAX if the latter is enabled.
+    # See https://github.com/alshedivat/al-folio/issues/357.
+    bibtex_filters: [latex, smallcaps, superscript]
 
-  replace_strings: true
-  join_strings: true
+    replace_strings: true
+    join_strings: true
 
-  details_dir: bibliography
-  details_link: Details
+    details_dir: bibliography
+    details_link: Details
 
-  query: "@*"
-  group_by: year
-  group_order: descending
+    query: '@*'
+    group_by: year
+    group_order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
-  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+    altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+    dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
+    google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
-  [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
+    [
+        abbr,
+        abstract,
+        altmetric,
+        arxiv,
+        bibtex_show,
+        blog,
+        code,
+        html,
+        pdf,
+        poster,
+        preview,
+        selected,
+        slides,
+        supp,
+        video,
+        website,
+    ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit:  # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
@@ -329,10 +348,10 @@ enable_publication_thumbnails: true
 
 # These are the defaults
 external_links:
-  enabled: true
-  rel: external nofollow noopener
-  target: _blank
-  exclude:
+    enabled: true
+    rel: external nofollow noopener
+    target: _blank
+    exclude:
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -341,21 +360,21 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img/
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-    - ".gif"
-  output_formats:
-    webp: "-quality 85"
+    enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+    widths:
+        - 480
+        - 800
+        - 1400
+    input_directories:
+        - assets/img/
+    input_formats:
+        - '.jpg'
+        - '.jpeg'
+        - '.png'
+        - '.tiff'
+        - '.gif'
+    output_formats:
+        webp: '-quality 85'
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
@@ -387,89 +406,89 @@ enable_progressbar: true # enables a horizontal progress bar linked to the verti
 # -----------------------------------------------------------------------------
 
 bootstrap-table:
-  version: "1.22.1"
+    version: '1.22.1'
 chartjs:
-  version: "4.4.1"
+    version: '4.4.1'
 d3:
-  version: "7.8.5"
-  integrity: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
+    version: '7.8.5'
+    integrity: 'sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw='
 diff2html:
-  version: "3.4.47"
-  integrity:
-    css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
-    js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
+    version: '3.4.47'
+    integrity:
+        css: 'sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg='
+        js: 'sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY='
 echarts:
-  version: "5.4.3"
-  integrity:
-    library: "sha256-EVZCmhajjLhgTcxlGMGUBtQiYULZCPjt0uNTFEPFTRk="
-    dark_theme: "sha256-UmFIP/4VvOqBDIl2QWl1HBuAJ1XWs/iFZxT5yJRZOKo="
+    version: '5.4.3'
+    integrity:
+        library: 'sha256-EVZCmhajjLhgTcxlGMGUBtQiYULZCPjt0uNTFEPFTRk='
+        dark_theme: 'sha256-UmFIP/4VvOqBDIl2QWl1HBuAJ1XWs/iFZxT5yJRZOKo='
 highlightjs:
-  version: "11.9.0"
-  integrity:
-    css:
-      light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
-      dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
+    version: '11.9.0'
+    integrity:
+        css:
+            light: 'sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY='
+            dark: 'sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk='
 imagesloaded:
-  version: "5.0.0"
-  integrity: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+    version: '5.0.0'
+    integrity: 'sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc='
 img-comparison-slider:
-  version: "8.0.6"
+    version: '8.0.6'
 jquery:
-  version: "3.6.0"
-  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    version: '3.6.0'
+    integrity: 'sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4='
 leaflet:
-  version: "1.9.4"
-  integrity:
-    css: "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    js: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    version: '1.9.4'
+    integrity:
+        css: 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY='
+        js: 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo='
 mathjax:
-  version: "3.2.0"
+    version: '3.2.0'
 masonry:
-  version: "4.2.2"
-  integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+    version: '4.2.2'
+    integrity: 'sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI='
 mdb:
-  version: "4.20.0"
-  integrity:
-    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
-    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+    version: '4.20.0'
+    integrity:
+        css: 'sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw='
+        js: 'sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA='
 medium_zoom:
-  version: "1.1.0"
-  integrity: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
+    version: '1.1.0'
+    integrity: 'sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc='
 mermaid:
-  version: "10.7.0"
-  integrity: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
+    version: '10.7.0'
+    integrity: 'sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A='
 swiper:
-  version: "11.0.5"
-  integrity:
-    css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
-    js: "sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E="
+    version: '11.0.5'
+    integrity:
+        css: 'sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E='
+        js: 'sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E='
 vega:
-  version: "5.27.0"
-  integrity: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
+    version: '5.27.0'
+    integrity: 'sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs='
 vega-embed:
-  version: "6.24.0"
-  integrity: "sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU="
+    version: '6.24.0'
+    integrity: 'sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU='
 vega-lite:
-  version: "5.16.3"
-  integrity: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
+    version: '5.16.3'
+    integrity: 'sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw='
 
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+    - data: resume
+      json: assets/json/resume.json # it can also be an url
 jsonresume:
-  - basics
-  - education
-  - work
-  # - publications
-  # - projects
-  - awards
-  - extracurricular activities
-  # - certificates
-  # - skills
-  # - languages
-  # - interests
-  # - references
+    - basics
+    - education
+    - work
+    # - publications
+    # - projects
+    - awards
+    - extracurricular activities
+    # - certificates
+    # - skills
+    # - languages
+    # - interests
+    # - references

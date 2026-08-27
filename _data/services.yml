@@ -1,21 +1,21 @@
 - title: Community Services
   type: time_table
   contents:
-    - title: <a href="https://2026.msrconf.org">International Conference on Mining Software Repositories (MSR)</a>
-      year: 2025
-      role: Junior Program Committee of Technical Track
-    - title: <a href="https://soict.org/#">International Symposium on Information and Communication Technology (SOICT)</a>
-      year: 2025
-      role: Program Committee
+      - title: <a href="https://2026.msrconf.org">International Conference on Mining Software Repositories (MSR)</a>
+        year: 2025
+        role: Junior Program Committee of Technical Track
+      - title: <a href="https://soict.org/#">International Symposium on Information and Communication Technology (SOICT)</a>
+        year: 2025
+        role: Program Committee
 
 - title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://handbook.unimelb.edu.au/subjects/swen20003">SWEN20003 – Object-Oriented Software Development</a>
-      year: Sem 2025.2, 2026.1
-      institution: The University of Melbourne
-      role: Academic Tutor (Teaching Assistant)
-    - title: <a href="">Natural Language Processing</a>
-      year: 9/2023 - 11/2023
-      institution: AI Fresher Training Program, VinBigdata
-      role: Teaching Assistant
+      - title: <a href="https://handbook.unimelb.edu.au/subjects/swen20003">SWEN20003 – Object-Oriented Software Development</a>
+        year: Sem 2025.2, 2026.1
+        institution: The University of Melbourne
+        role: Academic Tutor (Teaching Assistant)
+      - title: <a href="">Natural Language Processing</a>
+        year: 9/2023 - 11/2023
+        institution: AI Fresher Training Program, VinBigdata
+        role: Teaching Assistant

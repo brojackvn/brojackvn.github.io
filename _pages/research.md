@@ -5,7 +5,7 @@ permalink: /research/
 description: 🎯 I am deeply passionate about leveraging automated solutions to tackle challenges in Software Engineering. My research focuses on Automated Program Repair (APR), Program Analysis, Software Repository Mining, and AI for Software Engineering (AI4SE). I explore cutting-edge techniques to enhance software quality, reliability, and maintainability through automation and intelligent systems. 🚀
 nav: true
 nav_order: 3
-display_categories: ["Code Reliability", "Code Quality"]
+display_categories: ['Code Reliability', 'Code Quality']
 horizontal: false
 ---
 
@@ -64,4 +64,3 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
-

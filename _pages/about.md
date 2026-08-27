@@ -6,18 +6,18 @@ permalink: /
 subtitle: PhD Student at <a href="https://www.unimelb.edu.au" target="_blank">The University of Melbourne</a>, working under the supervision of <a href="https://scholar.google.com.sg/citations?hl=en&user=AUJWzE8AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Bach Le</a> and <a href="https://scholar.google.com/citations?hl=en&user=rTEeEsYAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Christine Rizkallah</a>.
 
 profile:
-  align: right
-  image: Avatar.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: <small>This is me at SOICT conference </small>  
-  
+    align: right
+    image: Avatar.jpg
+    image_circular: false # crops the image to make it circular
+    more_info: <small>This is me at SOICT conference </small>
+
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
 I earned my Bachelor's Degree in Computer Science from [Hanoi University of Science and Technology](https://hust.edu.vn/en/). During my time there, I underwent a transformative experience that encouraged me to think outside the box and push my limits. This environment inspired me to conceive innovative initiatives for my research. Also, what's best fortune is to be advised by my supervisor [Dr. Mai-Anh Bui](https://orcid.org/0000-0001-7877-9438), who inspired my passion for research. This was followed by collaborating with [Dr. Phuong Nguyen](https://scholar.google.com/citations?hl=en&user=vxFDCLUAAAAJ&view_op=list_works&sortby=pubdate), who introduced me to various aspects of research.
-Under the guidance of both my supervisors, I explored two primary research topics - `Software Defect Prediction` and `Code Smell Detection`. Additionally, I engaged in discussions with my labmates and supervisors about topics such as `Fault Localization`, `Software Testing`, `Code Summarization`. 
+Under the guidance of both my supervisors, I explored two primary research topics - `Software Defect Prediction` and `Code Smell Detection`. Additionally, I engaged in discussions with my labmates and supervisors about topics such as `Fault Localization`, `Software Testing`, `Code Summarization`.
 
 During my senior year, I had great opportunities to be advised by [Dr. Bach Le](https://scholar.google.com.sg/citations?hl=en&user=AUJWzE8AAAAJ&view_op=list_works&sortby=pubdate) on the research topic of `Automated Program Repair`. This experience provided me with a comprehensive view of `Software Debugging`, covering on detection, localization (both my previous preferred research topics), testing and repairing (my current focus).
 
