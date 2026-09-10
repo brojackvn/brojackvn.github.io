@@ -9,7 +9,8 @@ profile:
     align: right
     image: Avatar.jpg
     image_circular: false # crops the image to make it circular
-    more_info: <small>This is me at SOICT conference </small>
+    # more_info: <small>This is me at SOICT conference </small>
+    more_info: 
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
