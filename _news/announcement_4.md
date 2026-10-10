@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper Accepted at ACM Transactions on Software Engineering and Methodology (TOSEM)!
+Our paper **“From empirical evaluation to context-aware enhancement: Repairing regression errors with LLMs”** has been accepted at the **ACM Transactions on Software Engineering and Methodology (TOSEM)**! 🎉

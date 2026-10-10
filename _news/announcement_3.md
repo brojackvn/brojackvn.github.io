@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper Accepted at Journal of Systems and Software (JSS)!
+Our paper **“EnseSmells: Deep Ensemble and Programming Language Models for Automated Code Smell Detection”** has been accepted at the **Journal of Systems and Software (JSS)**! 🎉
