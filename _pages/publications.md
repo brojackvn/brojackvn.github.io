@@ -12,10 +12,10 @@ nav_order: 1
 [Google Scholar Metrics](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_softwaresystems) assesses impact using the h-index. -->
 
 <!-- _pages/publications.md -->
-<div class="publications">
+<!-- <div class="publications">
 <h1>Arxiv</h1>
 {% bibliography --file arxiv-papers %}
-</div>
+</div> -->
 
 <div class="publications">
 <h1>Journal</h1>
