@@ -1,7 +1,7 @@
 - title: Community Services
   type: time_table
   contents:
-      - title: Software Quality Journal
+      - title: <a href="https://link.springer.com/journal/11219">Software Quality Journal</a>
         year: 2026
         role: Reviewer
       - title: <a href="https://2027.msrconf.org">International Conference on Mining Software Repositories (MSR'27)</a>
