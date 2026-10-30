@@ -1,6 +1,9 @@
 - title: Community Services
   type: time_table
   contents:
+      - title: Software Quality Journal
+        year: 2026
+        role: Reviewer
       - title: <a href="https://2027.msrconf.org">International Conference on Mining Software Repositories (MSR'27)</a>
         year: 2026
         role: Program Committee in Mining Challenge Track
